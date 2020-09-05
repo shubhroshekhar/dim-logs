@@ -1,0 +1,27 @@
+{
+  "name": "dim-logs",
+  "version": "1.0.0",
+  "description": "An easy environment based console logging tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhroshekhar/dim-logs.git"
+  },
+  "keywords": [
+    "consolelog",
+    "console.log",
+    "logging",
+    "envireonment",
+    "based",
+    "logging"
+  ],
+  "author": "Shubhro Shekhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhroshekhar/dim-logs/issues"
+  },
+  "homepage": "https://github.com/shubhroshekhar/dim-logs#readme"
+}
