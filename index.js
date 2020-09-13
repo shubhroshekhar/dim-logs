@@ -1,9 +1,12 @@
 /* eslint-disable no-console */
-
-const runMode = process.env.NODE_ENV;
-const logMode = process.env.LOG_MODE;
+let runMode = undefined;
+let logMode = undefined;
 let logging = true;
 
+if (process && process.env) {
+  runMode = process.env.NODE_ENV;
+  logMode = process.env.LOG_MODE;
+}
 const prodRunModes = ['PROD', 'prod', 'PRODUCTION', 'production'];
 const noLoggingModes = ['FALSE', 'false', 'NO', 'no', '0'];
 const loggingModes = ['TRUE', 'true', 'YES', 'yes', '1'];
